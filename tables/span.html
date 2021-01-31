@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Row and Column Span
+        </title>
+        <style>
+            #t01,tr,th,td {
+                border: 2px solid blue;
+                border-collapse: collapse;
+            }
+            #t02 {
+                border: 2px solid blue;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="t01" style="width:50%;">
+            <caption style="font-size: 150%;">Column Span</caption>
+            <tr>
+                <th>Name</td>
+                <th>Surname</th>
+                <th>Age</th>
+                <th colspan="2">Contact</th>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>Smith</td>
+                <td>40</td>
+                <td>21382312</td>
+                <td>22343343</td>
+            </tr>
+        </table>
+        <table id="t02" style="width:50%;">
+            <caption style="font-size:150%;">Row Span</caption>
+            <tr>
+                <th>Name</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact</th>
+                <td>123456</td>
+            </tr>
+            <tr>
+                <td>654321</td>
+            </tr>
+        
+        </table>
+    </body>
+</html>
