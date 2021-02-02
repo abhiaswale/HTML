@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Changing Content using java script</title>
+    </head>
+    <body>
+        <button type="button" onclick="myfunc()">ClickMe!</button>
+        <p id="i01">This is demonstration</p>
+        <script>
+            function myfunc(){
+                document.getElementById("i01").innerHTML="Hello Javascript";
+                document.getElementById("i01").style.color="lightred";
+                document.getElementById("i01").style.fontFamily="courier";
+                document.getElementById("i01").style.fontSize="80px";
+                document.getElementById("i01").style.backgroundColor="lightgrey";
+
+            }
+        </script>
+    </body>
+</html>
