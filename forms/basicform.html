@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>Forms in Html</head>
+    <meta name="viewport" content="style=width:device-width,initial-scale:1">
+    <style>
+        #fname{
+            color:red;
+        }
+        #i01{
+            background-color:black;
+        }
+    </style>
+    <body>
+        <p>Input Type :TEXT</p>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <input type="button" value="Submit">
+        </form>
+        <p>Input Type :RADIO</p>
+        <form>
+            <input type="radio" id="i01" name="gender" value="male">
+            <label for="name">Male</label><br>
+            <input type="radio" id="i02" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="i03" name="gender" value="others">
+            <label for="others">Others</label><br>
+        </form>
+        <p>Input Type :Checkbox</p>
+        <form>
+            <input type="checkbox" id="c01" name="Vehicle" value="2wheeler">
+            <label for="2wheeler">2-Wheeler</label><br>
+            <input type="checkbox" id="c02" name="Vehicle" value="3wheeler">
+            <label for="3wheeler">3-Wheeler</label><br>
+            <input type="checkbox" id="c03" name="4wheeler" value="4wheeler">
+            <label for="4wheeler">4-Wheeler</label><br>
+        </form>
+    </body>
+</html>
