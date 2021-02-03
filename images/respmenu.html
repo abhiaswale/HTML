@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Menu</title>
+        <meta name="viewport" content="style=width:device-width,initial-scale:1">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .col1 {
+                float: left;
+                width:20%;
+                background-color: lightskyblue;
+                padding:20px;
+            }
+            .col2{
+                float:left;
+                width:60%;
+                background-color: lightpink;
+                padding:20px;
+            }
+            .col3{
+                float:left;
+                width:20%;
+                background-color: green;
+                padding:20px;
+            }
+            @media screen and (max-width: 800px){
+                .col1,.col2,.col3{
+                    width: 100%;
+                }              
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col1">
+                <p>Left Menu</p>
+            </div>
+            <div class="col2">
+                <p>Main Menu</p>
+            </div>
+            <div class="col3">
+                <p>Right Menu</p>
+            </div>
+        </div>
+    </body>
+</html>
