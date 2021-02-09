@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+.top {    
+    background-color:rgb(43, 38, 38);
+    height:170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.top > .left-column {
+    display: flex;
+    justify-content: center;
+}
+.top > .left-column img{
+    width:135px;
+    height: 100%;
+}
+.top > .left-column > .data {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:5px;
+    margin-left: 15px;
+}
+/* Right Column styling */
+.right-column {
+    display: flex;
+    justify-content: center;
+}
+.top > .right-column > .logos > .onedrive img {
+    width:120px;
+    height:100%;
+}
+.top > .right-column > .logos >.windows img {
+    width:120px;
+    height:100%;
+}
+.top > .right-column> .logos{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+
+}
