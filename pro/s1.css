@@ -56,13 +56,21 @@ body{
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-gap: 130px;
+    padding-bottom: 60px;
+}
+.right-column > .logos > .onedrive> .one-drive-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
 }
 .logos > .onedrive img {
-    width:110px;
-    height:100px;
+    width:90px;
+    height:90px;
    
 }
 .logos >.windows img {
-    width:110px;
-    height:100px;    
+    width: 90px;
+    height: 83px;    
 }
