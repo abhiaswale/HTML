@@ -8,17 +8,21 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-left: 260px;
-    padding-right: 260px;
+    padding-right: 170px;
     padding-top: 35px;
     padding-bottom: 35px;
 }
+/* Left Column Styling */
 .top > .left-column {
     display: flex;
     justify-content: center;
 }
 .top > .left-column img{
-    width:135px;
-    height: 150px;
+    width:120px;
+    height: 126px;
+}
+.top >.left-column > .profile {
+    padding-top: 20px;
 }
 .top > .left-column > .data {
     /* text-align: center; */
@@ -45,8 +49,10 @@ body{
     font-family: 'Lato', sans-serif;
     text-align: left;
     text-decoration: none;
-    color: blue;    
+    color: rgb(139, 139, 243);    
 }
+
+
 /* Right Column styling */
 .right-column {
     display: flex;
@@ -54,23 +60,49 @@ body{
 }
 .right-column > .logos {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 130px;
-    padding-bottom: 60px;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 78px;
+    padding-bottom: 15px;
 }
-.right-column > .logos > .onedrive> .one-drive-wrapper {
+.right-column > .logos > .onedrive {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 30px;
     font-family: 'Roboto', sans-serif;
     color: white;
-
+}
+.right-column > .logos > .windows {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-right: 70px
 }
 .logos > .onedrive img {
-    width:90px;
-    height:90px;
+    width:53px;
+    height:55px;
    
 }
 .logos >.windows img {
-    width: 90px;
-    height: 83px;    
+    width: 54px;
+    height: 49px;    
+}
+.top > .right-column >.logos >.onedrive >.one-drive-wrapper >.edit1 {
+    color: rgb(172, 160, 160);
+    font-size: 12px;
+}
+.top > .right-column >.logos >.windows >.windows-wrapper >.edit1 {
+    color: rgb(172, 160, 160);
+    font-size: 12px;
+}
+.top > .right-column >.logos >.onedrive >.one-drive-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:2px;
+}
+.top > .right-column >.logos >.windows >.windows-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:2px;
 }
