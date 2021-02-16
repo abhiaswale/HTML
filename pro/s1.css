@@ -51,7 +51,9 @@ body{
     text-decoration: none;
     color: rgb(139, 139, 243);    
 }
-
+.sign-in a:hover {
+    color: #cbcbcb;
+}
 
 /* Right Column styling */
 .right-column {
@@ -105,4 +107,13 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap:2px;
+}
+
+.search-bar {
+    height: 75px;
+    color: white;
+    background-color:rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
